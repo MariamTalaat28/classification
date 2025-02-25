@@ -1,15 +1,15 @@
-Titanic Survival Prediction Model
-Problem Statement
+# Titanic Survival Prediction Model
+# Problem Statement
 The goal of this project is to develop a classification model that predicts whether a passenger survived the Titanic disaster based on key features such as age, gender, passenger class, and fare.
 
 By leveraging machine learning techniques, we aim to analyze the historical dataset, extract meaningful insights, and build a robust predictive model to classify passengers as survivors or non-survivors.
 
-Business Problem Overview
+# Business Problem Overview
 The sinking of the Titanic in 1912 was one of the deadliest maritime disasters in history. Understanding the factors that influenced passenger survival can provide valuable insights into decision-making during emergencies.
 
 Machine learning plays a crucial role in such predictive analytics, helping organizations across industries analyze historical data, uncover patterns, and make informed decisions. In this project, we apply a classification model to assess the likelihood of passenger survival, demonstrating how data-driven approaches can enhance predictions and decision-making.
 
-Understanding the Titanic Dataset
+# Understanding the Titanic Dataset
 The dataset used for this project is sourced from the Kaggle Titanic dataset. It contains information on passenger demographics, ticket details, and survival outcomes.
 
 Key features in the dataset include:
@@ -38,25 +38,25 @@ Cabin: Cabin number
 
 Embarked: Port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton)
 
-Project Pipeline
+# Project Pipeline
 The project workflow consists of the following steps:
 
 
-1. Data Understanding & Preprocessing
+# 1. Data Understanding & Preprocessing
 Loaded the Titanic dataset and explored its structure.
 
 Handled missing values and performed feature engineering.
 
 Converted categorical variables into numerical form for model compatibility.
 
-3. Exploratory Data Analysis (EDA)
-4. Analyzed survival rates based on different passenger attributes.
-5. Visualized key trends using histograms, bar plots, and correlation heatmaps.
+# 3. Exploratory Data Analysis (EDA)
+# 4. Analyzed survival rates based on different passenger attributes.
+# 5. Visualized key trends using histograms, bar plots, and correlation heatmaps.
 
 Identified feature importance for classification.
 
-6. Model Training & Evaluation  
-7. Selected Naïve Bayes as the primary algorithm for classification.
+# 6. Model Training & Evaluation  
+# 7. Selected Naïve Bayes as the primary algorithm for classification.
 
 Split the dataset into training and testing sets.
 
@@ -70,8 +70,8 @@ Precision: 91%
 
 Recall: 75.9%
 
-8. Model Insights & Key Findings
-9. Gender played a crucial role in survival predictions (higher survival rate for females).
+# 8. Model Insights & Key Findings
+# 9. Gender played a crucial role in survival predictions (higher survival rate for females).
 
 Passenger class significantly influenced survival chances (1st-class passengers had a higher survival rate).
 
