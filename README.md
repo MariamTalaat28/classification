@@ -41,40 +41,34 @@ Embarked: Port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton)
 # Project Pipeline
 The project workflow consists of the following steps:
 
+The project workflow consists of the following steps:
 
-# 1. Data Understanding & Preprocessing
+#1. Data Understanding & Preprocessing
 Loaded the Titanic dataset and explored its structure.
-
 Handled missing values and performed feature engineering.
-
 Converted categorical variables into numerical form for model compatibility.
-
-# 3. Exploratory Data Analysis (EDA)
-# 4. Analyzed survival rates based on different passenger attributes.
-# 5. Visualized key trends using histograms, bar plots, and correlation heatmaps.
-
+#2. Exploratory Data Analysis (EDA)
+Analyzed survival rates based on different passenger attributes.
+Visualized key trends using histograms, bar plots, and correlation heatmaps.
 Identified feature importance for classification.
-
-# 6. Model Training & Evaluation  
-# 7. Selected Naïve Bayes as the primary algorithm for classification.
-
+#3. Model Training & Evaluation
+Selected Naïve Bayes as the primary algorithm for classification.
 Split the dataset into training and testing sets.
-
 Trained the model and fine-tuned hyperparameters.
-
 Evaluated model performance using key metrics:
-
 Accuracy: 79%
-
 Precision: 91%
-
 Recall: 75.9%
-
-# 8. Model Insights & Key Findings
-# 9. Gender played a crucial role in survival predictions (higher survival rate for females).
+#4. Model Insights & Key Findings
+Gender played a crucial role in survival predictions (higher survival rate for females).
+Passenger class significantly influenced survival chances (1st-class passengers had a higher survival rate).
+Age and fare were important factors in determining survival probability.
 
 Passenger class significantly influenced survival chances (1st-class passengers had a higher survival rate).
 
 Age and fare were important factors in determining survival probability.
 Conclusion
+
+
+This project demonstrates how machine learning can be applied to historical datasets for predictive modeling. The Naïve Bayes classifier provided strong performance, highlighting key survival factors. Further improvements can be achieved by testing additional models, feature selection techniques, and advanced ensemble learning methods.
 This project demonstrates how machine learning can be applied to historical datasets for predictive modeling. The Naïve Bayes classifier provided strong performance, highlighting key survival factors. Further improvements can be achieved by testing additional models, feature selection techniques, and advanced ensemble learning methods.
