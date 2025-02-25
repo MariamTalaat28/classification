@@ -81,7 +81,8 @@ Age and fare were important factors in determining survival probability.
 Passenger class significantly influenced survival chances (1st-class passengers had a higher survival rate).
 
 Age and fare were important factors in determining survival probability.
-Conclusion
+
+# Conclusion
 
 
 This project demonstrates how machine learning can be applied to historical datasets for predictive modeling. The Naïve Bayes classifier provided strong performance, highlighting key survival factors. Further improvements can be achieved by testing additional models, feature selection techniques, and advanced ensemble learning methods.
